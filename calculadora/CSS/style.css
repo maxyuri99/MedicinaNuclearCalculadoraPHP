@@ -1,0 +1,83 @@
+#Dados1 {
+    font-size: 15px;
+    padding:4px;
+    -webkit-appearance: none;
+    /* Remove estilo padrão do Chrome */
+    -moz-appearance: none;
+    /* Remove estilo padrão do FireFox */
+    appearance: none;
+    /* Remove estilo padrão do FireFox*/
+    background: url(nova_setinha.jpg) no-repeat #eeeeee;
+    /* Imagem de fundo (Seta) */
+    background-position: 508px center;
+    /*Posição da imagem do background*/
+    width: 540px;
+    /* Tamanho do select, maior que o tamanho da div "div-select" */
+    height: 30px;
+    /* Altura do select, importante para que tenha a mesma altura em todo os navegadores */
+    border: 1px solid #ddd;
+
+    margin: 10px 15px;
+}
+
+
+#Dados2 {
+    font-size: 15px;
+    padding:4px;
+    -webkit-appearance: none;
+    /* Remove estilo padrão do Chrome */
+    -moz-appearance: none;
+    /* Remove estilo padrão do FireFox */
+    appearance: none;
+    /* Remove estilo padrão do FireFox*/
+    background: url(nova_setinha.jpg) no-repeat #eeeeee;
+    /* Imagem de fundo (Seta) */
+    background-position: 508px center;
+    /*Posição da imagem do background*/
+    width: 540px;
+    /* Tamanho do select, maior que o tamanho da div "div-select" */
+    height: 30px;
+    /* Altura do select, importante para que tenha a mesma altura em todo os navegadores */
+    border: 1px solid #ddd;
+
+    margin: 10px 15px;
+}
+
+:root {
+    --cor-primaria-success: #ddd;
+}
+
+.btn {
+    font-family:Verdana, Trebuchet,sans-serif;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background .3s;
+    border-radius: 5px;
+    margin: 10px 15px;
+    background-color: var(--cor-primaria-success);
+}
+
+.Resultado {
+    font-family:Verdana, Trebuchet,sans-serif;
+    margin: 10px 15px;
+
+}
+
+.cabeca {
+   white-space: nowrap; 
+   overflow:hidden;
+   height: 70px;
+   width: 1000px;
+   color: rgb(0, 0, 0); 
+   margin: 10px 15px;
+}
+
+i{  
+    overflow:hidden;
+    font-family:Verdana, Trebuchet,sans-serif;
+    height: 50px;
+    width: 455px;
+    color: rgb(0, 0, 0); 
+    margin: 10px 20px;  
+}
